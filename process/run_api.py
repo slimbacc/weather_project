@@ -51,8 +51,7 @@ def main():
     df_csv = get_data(api_instance, q)
     # Get the current date and time in the "hh:mm" format
     current_time = datetime.now().strftime("%d-%m-%Y/%H:%M")
-    cloud_path = f'{current_time}.csv'
-    print(cloud_path)
+    cloud_path = f'raw_data/{current_time}.csv'
     upload_to_firebase(firebaseConfig, df_csv, cloud_path)
 
 if __name__ == "__main__":
