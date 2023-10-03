@@ -6,7 +6,7 @@ import pandas as pd
 import pyrebase
 from swagger_client.rest import ApiException
 import sys
-from weather_pipeline.process.functions import flatten_dict
+from process.functions import flatten_dict
 # Add the desired directory to sys.path
 desired_directory = 'C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\weather_pipeline'
 sys.path.append(desired_directory)
