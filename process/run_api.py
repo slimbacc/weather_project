@@ -7,7 +7,7 @@ import pyrebase
 from swagger_client.rest import ApiException
 import sys
 # Add the desired directory to sys.path
-desired_directory = 'C:\\ProgramData\\Jenkins\\.jenkins\\workspace'
+desired_directory = 'C:\\ProgramData\\Jenkins\\.jenkins\\workspace\\weather_pipeline'
 sys.path.append(desired_directory)
 print(sys.path)
 from config.config import app_config
