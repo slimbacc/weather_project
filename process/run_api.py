@@ -6,8 +6,8 @@ import pandas as pd
 import pyrebase
 from swagger_client.rest import ApiException
 
-from weather_project.config.config import app_config
-from weather_project.process.functions import flatten_dict
+from weather_pipeline.config.config import app_config
+from weather_pipeline.process.functions import flatten_dict
 
 api_instance, q, firebaseConfig= (
     app_config.api_instance,
